@@ -1,9 +1,9 @@
-FROM ubuntu:18.04
+FROM ubuntu:latest
 
-LABEL maintainer="Jakezp <jakezp@gmail.com>"
+LABEL maintainer="pcpedersen <github.com/pcpedersen>"
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV NUT_VERSION 2.7.4
+ENV NUT_VERSION 2.8.2
 
 ENV UPS_NAME="ups"
 ENV UPS_DESC="UPS"
