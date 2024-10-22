@@ -73,9 +73,5 @@ sleep 15
 /sbin/upsmon
 sleep 30
 
-# Disable UPS beep (blazer_usb)
-/bin/upscmd ups beeper.toggle &
-
-
 cd /app/webNUT/webnut
 pserve ../production.ini
