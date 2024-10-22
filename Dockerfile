@@ -7,7 +7,7 @@ ENV NUT_VERSION 2.8.2
 
 ENV UPS_NAME="ups"
 ENV UPS_DESC="UPS"
-ENV UPS_DRIVER="blazer_usb"
+ENV UPS_DRIVER="powerpanel"
 ENV UPS_PORT="auto"
 
 ENV API_USER="monuser"
